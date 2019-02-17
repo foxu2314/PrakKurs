@@ -10,6 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Dzialania p = new Dzialania();
+            Console.WriteLine(p.Dodawanie(3,5));
+            Console.WriteLine(p.Mnożenie(3, 5));
+            Console.ReadKey(); 
         }
+
     }
 }
